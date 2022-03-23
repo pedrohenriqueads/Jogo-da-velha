@@ -1,0 +1,15 @@
+História do jogo: É um jogo de regras extremamente simples, que não traz grandes dificuldades para seus jogadores e é facilmente aprendido.
+A origem é desconhecida, com indicações de que pode ter começado no antigo Egito, onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos.
+Algumas lendas urbanas contam que o jogo terá nascido em Portugal, na cidade de Almada no ano 545.
+No entanto, só foi popularizado no ano 1500, pelo descobridor Pedro Álvares Cabral, que adorava jogar este jogo durante as suas viagens.
+Álvares Cabral terá decidido que este jogo seria o primeiro a ser ensinado ao povo indígena no Brasil.
+E agora ganha novas fases para divertir ainda mais os participantes
+
+Objetivo: O objetivo do jogo é fazer uma sequência de três símbolos iguais, seja em linha vertical, horizontal ou diagonal,
+enquanto tenta impedir que seu adversário faça o mesmo; Quando um dos participantes faz uma linha, ganha o jogo; 
+Começa do início, normalmente trocando os símbolos escolhidos.
+
+Composição:
+- simbolo X
+- simbolo O
+- Tabuleiro
