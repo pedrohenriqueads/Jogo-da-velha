@@ -13,3 +13,23 @@ Composição:
 - simbolo X
 - simbolo O
 - Tabuleiro
+
+Requisitos:
+- O software deve ter um módulo de entrar no jogo.
+
+- O software deve permitir o jogador iniciar um jogo.
+
+- O software deve permitir 2 jogadores jogarem 1 contra o outro.
+
+- O software deve permitir o jogador jogar contra o computador (jogador-computador).
+
+- O software deve permitir o jogador escolher o nível do jogo (jogador-computador).
+
+- O software deve ter 3 níveis de dificuldade quando o jogo for (jogador-computador).
+
+- O software deve permitir o jogador escolher entre os três níveis de dificuldade, quando o jogo for (jogador-computador), no qual os níveis são: fácil, médio e difícil.
+
+- O software deve iniciar uma nova partida ao final da partida atual.
+
+- O software deve permitir o usuário encerrar a partida
+
