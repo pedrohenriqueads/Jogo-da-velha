@@ -7,13 +7,13 @@ import pygame
 from pygame.locals import *
 from sys import exit
 
-def desenhar_tabu():
+def desenhar_tabu(): #Função para desenhar o tabuleiro na tela
     pygame.draw.line(tela, (255, 255, 255), (200, 0), (200, 600), 10)
     pygame.draw.line(tela, (255, 255, 255), (400, 0), (400, 600), 10)
     pygame.draw.line(tela, (255, 255, 255), (0, 200), (600, 200), 10)
     pygame.draw.line(tela, (255, 255, 255), (0, 400), (600, 400), 10)
 
-def desenhar_peca(pos):
+def desenhar_peca(pos): #Função para desenhar a peça no tabuleiro
     global VEZ
     x, y = pos
     if VEZ == 'JOGADOR2':
@@ -61,7 +61,7 @@ def confimar(indice, pos):
             VEZ = 'JOGADOR1'
         espaco +=1
 
-def teste_vitoria(l):
+def teste_vitoria(l): #Função de condição de vitória
     return ((marca_tabu[0] == l and marca_tabu[1] == l and marca_tabu[2] == l) or
         (marca_tabu[3] == l and marca_tabu[4] == l and marca_tabu[5] == l) or
         (marca_tabu[6] == l and marca_tabu[7] == l and marca_tabu[8] == l) or
@@ -107,7 +107,7 @@ def pontos(pontos1, pontos2):
 
 pygame.init()
 
-tela = pygame.display.set_mode((600, 600), 0, 32)
+tela = pygame.display.set_mode((600, 600), 0, 32)  #resolução da tela que será exibida
 pygame.display.set_caption('Jogo da velha')
 pygame.mixer.music.load('Tetris Theme A.ogg')
 pygame.mixer.music.set_volume(0.5)
@@ -122,6 +122,7 @@ marca_tabu = [
     6, 7, 8
 ]
 
+#Função de recorte para colisão, para que o clique no teclado entre no quadrado certo
 rect1 = Rect((0, 0), (200, 200))
 rect2 = Rect((200, 0), (200, 200))
 rect3 = Rect((400, 0), (200, 200))
@@ -142,7 +143,7 @@ pontos1, pontos2 = 0, 0
 print(pygame.font.get_fonts())
 pygame.mixer.music.play(-1, 0.0)
 
-while True:
+while True: #Eventos executados
     mouse_pos = pygame.mouse.get_pos()
     if ESTADO == 'JOGANDO':
         desenhar_tabu()
