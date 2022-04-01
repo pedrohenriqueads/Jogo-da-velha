@@ -14,7 +14,7 @@ def desenhar_peca(pos): #Função para desenhar a peça no tabuleiro
     if VEZ == 'JOGADOR2':
         pygame.draw.circle(tela, (0, 0, 255), pos, 50)
     else:
-        img = pygame.image.load('../img/x.png').convert_alpha()
+        img = pygame.image.load('./img/x.png').convert_alpha()
         imgR = pygame.transform.scale(img, (100, 100))
         tela.blit(imgR, (x - 50, y - 50))
 
@@ -104,7 +104,7 @@ pygame.init()
 
 tela = pygame.display.set_mode((600, 600), 0, 32)  #resolução da tela que será exibida
 pygame.display.set_caption('Jogo da velha')
-pygame.mixer.music.load('../Tetris Theme A.ogg')
+pygame.mixer.music.load('./sounds/Tetris Theme A.ogg')
 pygame.mixer.music.set_volume(0.5)
 
 ESTADO = 'JOGANDO'
